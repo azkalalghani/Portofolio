@@ -15,16 +15,16 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-gray-100">
-      {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 bg-gray-800/80 backdrop-blur-sm shadow-xl z-50">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"
-          >
-            Azka.dev
-          </motion.div>
+    {/* Navbar */}
+    <nav className="fixed top-0 left-0 right-0 bg-gray-800/80 backdrop-blur-sm shadow-xl z-50">
+      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-heading"
+        >
+          Azka.dev
+        </motion.div>
           {/* <div className="flex space-x-6">
             {["About", "Experience", "Education", "Portfolio"].map((item) => (
               <Link
@@ -52,16 +52,16 @@ export default function Home() {
           variants={sectionVariants}
         >
           <div className="lg:w-1/2 space-y-8">
-            <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-heading tracking-tight">
               Creative Full-Stack Developer
             </h1>
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-xl text-gray-300 leading-relaxed font-sans">
               Building digital experiences that combine innovation with elegant
               design. Passionate about creating solutions that make an impact.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
-              className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-semibold text-lg transition-colors duration-300"
+              className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-semibold text-lg transition-colors duration-300 font-heading"
             >
               Explore My Work
             </motion.button>
@@ -98,31 +98,26 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
       >
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center font-heading">
             About Me
           </h2>
-          <div className="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
-          <p>
-  My name is Azkal Alghani, and I&apos;m a passionate developer with a focus on 
-  creating meaningful digital experiences. Currently pursuing my degree in 
-  Informatics Engineering, I enjoy working on cutting-edge projects that 
-  bridge technology and creativity.
-</p>
-<p>
-  My expertise spans modern web technologies, including HTML, CSS, 
-  JavaScript, React.js, and Next.js, along with a strong understanding of 
-  UI/UX design principles and cloud-based solutions. I have experience 
-  in frontend development, responsive design, and API integration**, ensuring 
-  seamless and interactive user experiences.
-</p>
-<p>
-  Beyond technical skills, I excel in problem-solving, teamwork, and 
-  adaptability, allowing me to collaborate effectively in dynamic environments. 
-  I have a keen eye for design, attention to detail, and a strong passion for 
-  continuous learning. When I&apos;m not coding, you&apos;ll find me exploring new 
-  design trends, contributing to open-source projects, or refining my creative 
-  skills.
-</p>
+          <div className="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed font-sans">
+            <p>
+              My name is Azkal Alghani, and I&apos;m a passionate developer with a focus on 
+              creating meaningful digital experiences. Currently pursuing my degree in 
+              Informatics Engineering, I enjoy working on cutting-edge projects that 
+              bridge technology and creativity.
+            </p>
+            <p>
+              My expertise spans modern web technologies, including HTML, CSS, 
+              JavaScript, React.js, and Next.js, along with a strong understanding of 
+              UI/UX design principles and cloud-based solutions.
+            </p>
+            <p>
+              Beyond technical skills, I excel in problem-solving, teamwork, and 
+              adaptability. When I&apos;m not coding, you&apos;ll find me exploring new 
+              design trends or contributing to open-source projects.
+            </p>
           </div>
         </div>
       </motion.section>
@@ -137,7 +132,7 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
       >
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center font-heading">
             Education
           </h2>
           <div className="max-w-3xl mx-auto space-y-8">
@@ -146,13 +141,13 @@ export default function Home() {
               variants={cardVariants}
               whileHover="hover"
             >
-              <h3 className="text-2xl font-semibold text-purple-400 mb-2">
+              <h3 className="text-2xl font-semibold text-purple-400 mb-2 font-heading">
                 Informatics Engineering
               </h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400 mb-4 font-sans">
                 University of Muhammadiyah Surakarta • 2022-Present
               </p>
-              <p className="text-gray-300">
+              <p className="text-gray-300 font-sans">
                 Focused on software architecture, machine learning fundamentals,
                 and human-computer interaction.
               </p>
@@ -171,7 +166,7 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
       >
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center font-heading">
             Experience
           </h2>
           <div className="grid gap-8 max-w-4xl mx-auto">
@@ -192,17 +187,17 @@ export default function Home() {
                     />
                   </div>
                   <div className="md:w-2/3">
-                    <h3 className="text-2xl font-semibold text-blue-400 mb-2">
+                    <h3 className="text-2xl font-semibold text-blue-400 mb-2 font-heading">
                       {exp.title}
                     </h3>
-                    <p className="text-gray-400 mb-4">{exp.subtitle}</p>
-                    <p className="text-gray-300 mb-4">{exp.description}</p>
+                    <p className="text-gray-400 mb-4 font-sans">{exp.subtitle}</p>
+                    <p className="text-gray-300 mb-4 font-sans">{exp.description}</p>
                     {exp.certification && (
                       <a
                         href={exp.certification}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 transition-colors"
+                        className="text-blue-400 hover:text-blue-300 transition-colors font-sans"
                       >
                         View Certification →
                       </a>
@@ -225,7 +220,7 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
       >
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent text-center font-heading">
             Portfolio
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -245,16 +240,16 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6 bg-gray-900/50">
-                  <h3 className="text-xl font-semibold text-blue-400 mb-2">
+                  <h3 className="text-xl font-semibold text-blue-400 mb-2 font-heading">
                     {project.title}
                   </h3>
-                  <p className="text-gray-300 mb-4">{project.description}</p>
+                  <p className="text-gray-300 mb-4 font-sans">{project.description}</p>
                   <div className="flex gap-4">
                     <a
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md text-sm transition-colors"
+                      className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-md text-sm transition-colors font-sans"
                     >
                       View
                     </a>
@@ -274,14 +269,14 @@ export default function Home() {
               <motion.a
                 key={platform}
                 href="#"
-                className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-sans"
                 whileHover={{ scale: 1.1 }}
               >
                 {platform}
               </motion.a>
             ))}
           </div>
-          <p className="text-gray-400">
+          <p className="text-gray-400 font-sans">
             © 2024 Azkal Alghani. Crafted with passion and Next.js
           </p>
         </div>
