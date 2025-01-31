@@ -102,18 +102,27 @@ export default function Home() {
             About Me
           </h2>
           <div className="max-w-3xl mx-auto space-y-6 text-lg text-gray-300 leading-relaxed">
-            <p>
-              My name is Azkal Alghani and I'm a passionate developer with a
-              focus on creating meaningful digital experiences. Currently
-              pursuing my degree in Informatics Engineering while working on
-              cutting-edge projects that bridge technology and creativity.
-            </p>
-            <p>
-              My expertise spans modern web technologies, UI/UX design
-              principles, and cloud-based solutions. When I'm not coding, you'll
-              find me exploring new design trends or contributing to open-source
-              projects.
-            </p>
+          <p>
+  My name is Azkal Alghani, and I&apos;m a passionate developer with a focus on 
+  creating meaningful digital experiences. Currently pursuing my degree in 
+  Informatics Engineering, I enjoy working on cutting-edge projects that 
+  bridge technology and creativity.
+</p>
+<p>
+  My expertise spans modern web technologies, including **HTML, CSS, 
+  JavaScript, React.js, and Next.js**, along with a strong understanding of 
+  **UI/UX design principles** and **cloud-based solutions**. I have experience 
+  in **frontend development, responsive design, and API integration**, ensuring 
+  seamless and interactive user experiences.
+</p>
+<p>
+  Beyond technical skills, I excel in **problem-solving, teamwork, and 
+  adaptability**, allowing me to collaborate effectively in dynamic environments. 
+  I have a keen eye for design, attention to detail, and a strong passion for 
+  continuous learning. When I&apos;m not coding, you&apos;ll find me exploring new 
+  design trends, contributing to open-source projects, or refining my creative 
+  skills.
+</p>
           </div>
         </div>
       </motion.section>
