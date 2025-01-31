@@ -25,7 +25,7 @@ export default function Home() {
           >
             Azka.dev
           </motion.div>
-          <div className="flex space-x-6">
+          {/* <div className="flex space-x-6">
             {["About", "Experience", "Education", "Portfolio"].map((item) => (
               <Link
                 key={item}
@@ -35,7 +35,7 @@ export default function Home() {
                 {item}
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       </nav>
 
@@ -111,13 +111,13 @@ export default function Home() {
 <p>
   My expertise spans modern web technologies, including HTML, CSS, 
   JavaScript, React.js, and Next.js, along with a strong understanding of 
-  UI/UX design principles** and **cloud-based solutions. I have experience 
-  in **frontend development, responsive design, and API integration**, ensuring 
+  UI/UX design principles and cloud-based solutions. I have experience 
+  in frontend development, responsive design, and API integration**, ensuring 
   seamless and interactive user experiences.
 </p>
 <p>
-  Beyond technical skills, I excel in **problem-solving, teamwork, and 
-  adaptability**, allowing me to collaborate effectively in dynamic environments. 
+  Beyond technical skills, I excel in problem-solving, teamwork, and 
+  adaptability, allowing me to collaborate effectively in dynamic environments. 
   I have a keen eye for design, attention to detail, and a strong passion for 
   continuous learning. When I&apos;m not coding, you&apos;ll find me exploring new 
   design trends, contributing to open-source projects, or refining my creative 
