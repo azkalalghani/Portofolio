@@ -109,9 +109,9 @@ export default function Home() {
   bridge technology and creativity.
 </p>
 <p>
-  My expertise spans modern web technologies, including **HTML, CSS, 
-  JavaScript, React.js, and Next.js**, along with a strong understanding of 
-  **UI/UX design principles** and **cloud-based solutions**. I have experience 
+  My expertise spans modern web technologies, including HTML, CSS, 
+  JavaScript, React.js, and Next.js, along with a strong understanding of 
+  UI/UX design principles** and **cloud-based solutions. I have experience 
   in **frontend development, responsive design, and API integration**, ensuring 
   seamless and interactive user experiences.
 </p>
