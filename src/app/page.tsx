@@ -292,7 +292,7 @@ const experiences = [
     description:
       "Spearheaded social media strategy and visual design, increasing engagement by 150%. (@icac.ums)",
     image: "/images/icac.jpg",
-    certification: "/certs/cert1.pdf",
+    certification: "/certs/icac.png",
   },
   {
     title: "Content Creator",
@@ -300,7 +300,7 @@ const experiences = [
     description:
       "Created contents for social media, increasing engagement by 200%. (@kri.ums)",
     image: "/images/kri.jpeg",
-    certification: "/certs/cert1.pdf",
+    certification: "/certs/kri.pdf",
   },
   {
     title: "Liaison Officer",
