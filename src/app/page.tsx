@@ -308,7 +308,7 @@ const experiences = [
     description:
       " Managed communication between international delegates and local partners.",
     image: "/images/iss2.jpg",
-    certification: "/certs/cert1.pdf",
+    certification: "/certs/iss.pdf",
   },
 ];
 
