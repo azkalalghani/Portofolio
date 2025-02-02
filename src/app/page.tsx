@@ -323,14 +323,14 @@ const projects = [
   {
     title: "SustainLeaf UI Design",
     description:
-      "Simple and Minimalist website for a fictional eco-friendly company",
+      "A clean, simple, and minimalist website for a fictional eco-friendly company, designed to emphasize sustainability and modern aesthetics.",
     image: "/images/sustainleaf.png",
     demo: "https://www.figma.com/proto/b6jMdVgqRHtSOE2EakHbhU/SustainaLeaf?node-id=78-1135&t=lklCr19yFc6XRmI4-1",
   },
   {
     title: "Calculator UI Design",
     description:
-      "Modern calculator design with colorful colors and simple layout",
+      "A modern calculator design featuring a vibrant and colorful aesthetic paired with a clean and simple layout. The interface is intuitive, making it easy to use while maintaining a sleek and contemporary look.",
     image: "/images/calc.png",
     demo: "https://www.figma.com/proto/7ydRNZDDqhN5SXEjyryczY/calour-prof?page-id=0%3A1&node-id=1-4&p=f&viewport=1102%2C437%2C0.93&t=c7wnRlleTiPnfH4w-1&scaling=min-zoom&content-scaling=fixed",
   },
